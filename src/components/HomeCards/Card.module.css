@@ -1,0 +1,51 @@
+@keyframes AboutCardAnimation {
+    0%{
+        opacity: 0;
+    }
+    55%{
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+@keyframes PhotoCardAnimation {
+    0%{
+        opacity: 0;
+    }
+    55%{
+        transform: translateX(-5%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+@keyframes ContactCardAnimation {
+    0%{
+        opacity: 0;
+    }
+    55%{
+        transform: translateX(5%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+.AboutCard{
+    animation: AboutCardAnimation 1000ms ease-in;
+}
+.PhotoCard{
+    animation: PhotoCardAnimation 1000ms ease-in;
+}   
+.SocialBullet{
+    animation: AboutCardAnimation 1000ms ease-in; 
+}
+.ContactCard{
+    animation: ContactCardAnimation 1000ms ease-in;
+}
